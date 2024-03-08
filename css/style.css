@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: 'inter';
+}
+
+#topmenu, #form{
+    background-color: #303030;
+}
+
+#titletopmenu, #topmenutext, #formtext, button{
+    color: #FFF;
+}
+
+#titletopmenu, #topmenutext{
+    margin-left: 150px;
+}
+
+#titletopmenu{
+    font-size: 42px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+#topmenutext{
+    margin-top: 10px;
+    font-size: 15px;
+    padding-bottom: 60px;
+}
+
+#informationalmenu{
+    background-color: #F9F9F9;
+    height: 150px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+}
+
+#leftinformationalmenu{
+    margin-left: 250px;
+}
+
+.informationalnumbers{
+    font-weight: 500;
+}
+
+#rightinformationalmenu{
+    margin-right: 200px;
+}
+
+#historyandexperiencesection{
+    display: grid;    
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#texthistoryandexperiencesection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    justify-content: center;
+}
+
+img{
+    height: 510px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#historyexperiencesectiontitle{
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#paragraphhistoryexperiencesection{
+    margin-top: 40px;
+    font-size: 21px;
+    line-height: 31px;
+}
+
+#form{
+    text-align: center;
+    height: 350px;
+}
+
+#formtext{
+    padding-top: 40px;
+}
+
+input, button{
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #FFF;
+    margin-top: 30px;
+    border: 0px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+button{
+    font-weight: bolder;
+    margin-top: 40px;
+    background-color: #c07212;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    border: 0px;
+}
+
+button:hover{
+    background-color: #e09130;
+    transform: translateY(-1px);
+    box-shadow: 0px 15px 20px #222121;
+    transition-duration: 0.5s;
+}
